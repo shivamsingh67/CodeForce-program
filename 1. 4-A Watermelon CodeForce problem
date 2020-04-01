@@ -1,0 +1,15 @@
+//In this problem we have to describe that if teh nuber is greater then 2 then wether the number is even or odd 
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    if(n>2 && n%2==0)   //checking  the condition if true then it will return YES else NO
+    cout<<"YES";
+    else
+    cout<<"NO";
+    return 0;
+    
+}
