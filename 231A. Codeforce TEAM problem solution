@@ -1,3 +1,15 @@
+/*
+In the first sample Petya and Vasya are sure that they know how to solve the first problem and all three of them know
+how to solve the second problem. That means that they will write solutions for these problems.
+Only Petya is sure about the solution for the third problem, but that isn't enough, so the friends won't take it.input
+3
+1 1 0
+1 1 1
+1 0 0
+output
+2
+*/
+
 #include<iostream>
 using namespace std;
 int main()
