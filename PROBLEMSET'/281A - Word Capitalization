@@ -1,0 +1,31 @@
+/*Capitalization is writing a word with its first letter as a capital letter.
+input
+ApPLe
+
+output
+ApPLe
+------------------
+input
+konjac
+
+output
+Konjac
+*/
+
+#include<iostream>
+#include<string.h>
+#include<stdlib.h>
+using namespace std;
+int main()
+{
+    char s[1000];
+cin.getline(s,1000);
+    s[0]=toupper(s[0]);
+    for(int i=0;i<strlen(s);i++)
+    {
+
+        putchar((s[i]));
+    }
+    return 0;
+
+}
