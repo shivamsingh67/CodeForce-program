@@ -1,0 +1,34 @@
+/*
+ If there are at least 7 players of some team standing one after another,
+ then the situation is considered dangerous. For example, the situation 00100110111111101 is dangerous and 11110111011101 is not.
+ You are given the current situation. Determine whether it is dangerous or not.
+*/
+
+#include<iostream>
+#include<string.h>
+#include<stdlib.h>
+using namespace std;
+int main()
+{
+    string str1="0000000" ;
+
+string str2="1111111" ;
+string s;
+cin>>s;
+
+if (s.find(str1) != string::npos)
+{
+cout<<"YES";
+}
+else if (s.find(str2) != string::npos)
+{
+cout<<"YES";
+}
+else
+    {
+    cout<<"NO\n";
+    }
+
+return 0;
+
+}
