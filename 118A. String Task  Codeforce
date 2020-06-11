@@ -1,4 +1,4 @@
-deletes all the vowels,
+deletes all the vowels,o
 inserts a character "." before each consonant,
 replaces all uppercase consonants with corresponding lowercase ones.
 Vowels are letters "A", "O", "Y", "E", "U", "I", and the rest are consonants
